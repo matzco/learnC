@@ -5,6 +5,12 @@
  */
  
 /*
+BUGS:
+set a 1, pop a, max a: expect none/undefined, gets -2^32. likewise for min a.
+
+*/
+
+/*
 Is a library allowed? 
 Check if its here: https://en.cppreference.com/w/c/header
 */
