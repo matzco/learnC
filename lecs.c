@@ -171,7 +171,8 @@ int main (int argc, char **argv)
 
 	if (lec_n == 3) {
 //LEC 3
-//john drinks hot water, implied prefer to tea/etc. wtf
+//john drinks hot water, he prefers to tea or coffee or cold water
+//wtf
 
 	//enums
 	//same as in other langs
@@ -299,7 +300,8 @@ int main (int argc, char **argv)
 	//bitshifts and bitwise shifts??
 	//shift right/left >> <<
 	//bitwise AND &, OR |, XOR ^, NOT ~
-	//dis motherfucker just assumes you're fucking fluent in bitshifts and masking. lec now overtime, another 45 to go. fuck
+	//dis motherfucker john just assumes you're fucking fluent in bitshifts and masking
+	// lec now overtime, another 45 to go. fuck
 	//later in lec: you should have learnt this in first year, youre 2nd year now...?
 
 	//files
@@ -353,7 +355,7 @@ if (lec_n == 4) {
 	//c strings go to static
 	
 	static int value = 1;
-	//guess where this int goes? well done. 
+	//guess where this int goes? well done. (static aka global aka static/global)
 	int val = 90;
 	//yeah, this one to stack
 
@@ -411,7 +413,7 @@ if (lec_n == 4) {
 	
 	free(ptr);
 	
-	printf("after free() the malloced 4xints, can still use ptr, but get junk: address %p contains %d: prev 11\n", &ptr, *ptr);
+	printf("after free() the malloced 4xints, can still use ptr, but get junk: address %p contaied 11: now %d\n", &ptr, *ptr);
 	//therefore, its good habit to NULL pointers so that you don't use shit left in the heap
 	ptr = NULL;
 	
@@ -499,6 +501,13 @@ if (lec_n == 4) {
 	free(n2);
 	free(n3);
 	free(n5);
+} 
+else if (lecs == 5) {
+
+
+
+
+	
 }
 
 
