@@ -333,9 +333,6 @@ int main (int argc, char **argv)
 	//bitshifts and bitwise shifts??
 	//shift right/left >> <<
 	//bitwise AND &, OR |, XOR ^, NOT ~
-	//dis motherfucker john just assumes you're fucking fluent in bitshifts and masking
-	// lec now overtime, another 45 to go. fuck
-	//later in lec: you should have learnt this in first year, youre 2nd year now...?
 
 	//files
 	//means we don't have to go flip registers or switches, can tell an OS to go to that
