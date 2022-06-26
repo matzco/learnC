@@ -1,5 +1,5 @@
 # learnC
-comp2017
+near complete notes for comp2017 incl A2
 
 lecs are lecture notes, mostly complete
 
