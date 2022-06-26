@@ -1,8 +1,5 @@
 /**
  * comp2017 - assignment 2
- * NAME
- * NUMBER
- */
  
 /*
 BUGS:
@@ -10,10 +7,6 @@ set a 1, pop a, max a: expect none/undefined, gets -2^32. likewise for min a.
 
 */
 
-/*
-Is a library allowed? 
-Check if its here: https://en.cppreference.com/w/c/header
-*/
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
@@ -34,13 +27,6 @@ Keep all functions as abstract as possible, make them reusable
 keep logic out of main, and chunk it as much as possible/sensible
 pointers are prefereable
 if something is freed, make sure pointers at nodes on BOTH sides are redirected
-
-
-Use:
-memcpy to copy structs for snapshots
-bubble sort too slow for sort
-uniq - will have to check all possibles: prev == NULL, 
-
 */
 
 
@@ -364,10 +350,7 @@ int main(void) {
 		if (strcmp(cmd, "bye\n") == 0) {
 			free_entries(head_head);
 			command_bye();
-		} /*else if (cmd == NULL) {
-			free_entries(head_head);
-			command_bye();
-		}*/
+		}
 		else if (strcmp(cmd, "help\n") == 0) {
 			command_help();
 		} 
